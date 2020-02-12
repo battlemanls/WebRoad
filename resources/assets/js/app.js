@@ -1,0 +1,1 @@
+//const SmartPhoto = require('smartphoto');

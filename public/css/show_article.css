@@ -1,0 +1,398 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.wrap_content{
+    margin: auto;
+    color: black;
+    min-height: 70vh;
+}
+
+.wrap_content>h2{
+    text-align: center;
+}
+
+
+.slider_gallery>a{
+}
+
+@media(max-width: 1000px) {
+    .wrap_content{
+        padding: 3px;
+        background:#d5d7d9 ;
+    }
+
+    .block>.title_block{
+        height: 400px;
+        min-width: 300px;
+    }
+
+
+}
+
+@media(min-width: 1000px) {
+    .wrap_content >.wrap_block{
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+
+    .block>.title_block{
+        height: 500px;
+        min-width: 300px;
+    }
+
+
+}
+
+.wrap_content >.wrap_block{
+    background: #d5d7d9;
+    border-radius: 7px;
+}
+
+.block{
+
+}
+
+/*noinspection ALL*/
+.type_block{
+    display: block;
+    text-align: left;
+    font-size: 1.5rem;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.type_block>h1{
+    font-weight: normal;
+}
+
+
+
+.block>.title_block{
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/*Без картинки */
+.block>.title_block_small{
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.block>.title_block>div{
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+/*
+.block>.title_block>div>span{
+    position: relative;
+    z-index: 10;
+}*/
+
+/*noinspection ALL*/
+.block>.title_block>div:first-child, .block>.title_block_small>div:first-child{
+    background: white;
+    width: 75%;
+    text-align: center;
+    background: rgba(226, 226, 226, 0.9);
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.7rem;
+    border-bottom: 5px dashed black;
+    overflow: hidden;
+
+
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+.block>.title_block>div:nth-child(2), .block>.title_block_small>div:first-child{
+}
+
+.block>.title_block>div:nth-child(2), .block>.title_block_small>div:last-child{
+    background: white;
+    font-size: 1rem;
+    width: 75%;
+    text-align: right;
+    background: rgba(226, 226, 226, 0.7);
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 0px 0px 5px 5px
+}
+
+.block>.title_block>div:nth-child(3), .block>.title_block_small>div:last-child{
+
+}
+
+.block>.title_block>div:first-child>img{
+    max-height: 400px;
+    max-width: 100%;
+    border-radius: 7px;
+}
+
+/*noinspection ALL*/
+.block>.body_block{
+    background: #efefef;
+    border:  2px solid #f7f7f7;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+}
+
+.block>.body_block table{
+    margin: auto;
+    width: 100% !important;
+}
+
+.block>.body_block>span{
+}
+
+.block>.img_block{
+    margin-top: 10px;
+}
+
+/*noinspection ALL,CssOverwrittenProperties*/
+.block>.img_block>span, .span_gallery{
+    display: block;
+    /*noinspection CssOverwrittenProperties*/
+    text-align: left;
+    font-size: 1.5rem;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+
+.block>.img_block>.span_gallery_nth{
+    display: block;
+    /*noinspection CssOverwrittenProperties*/
+    text-align: left;
+    font-size: 0.8rem;
+    border-bottom: 5px double black;
+    margin-bottom: 10px;
+
+
+    white-space: nowrap;
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+
+
+}
+
+
+.block>.img_block>div{
+    margin: auto;
+  /*  width: 100%;*/
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.block>.youtube_block{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/*noinspection ALL*/
+.block>.youtube_block>span{
+    display: block;
+    text-align: left;
+    font-size: 1.5rem;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+
+.block>.youtube_block>iframe{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 720px;
+    height: 300px;
+}
+
+.block>.file_block{
+    min-height: 100px;
+}
+
+/*noinspection ALL*/
+.block>.file_block>span{
+    display: block;
+    text-align: left;
+    font-size: 1.5rem;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+
+.block>.file_block>a{
+    display: block;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0);transform:scale(0)}
+    to {-webkit-transform:scale(1);transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {-webkit-transform:scale(0);transform:scale(0)}
+    to {-webkit-transform:scale(1);transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.pre_block{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: black;
+    padding: 3px;
+    border-bottom: 1px black solid;
+    border-top: 1px black solid;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.galleria{
+    width: 100%;
+    height: 400px; background: #000;
+    text-align: center;
+
+/* Блокировка свайпа по x */
+    -ms-touch-action: none;
+    touch-action: none;
+
+
+}
+

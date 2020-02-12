@@ -1,0 +1,92 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.wrap_content{
+    margin: auto;
+    color: black;
+    min-height: 70vh;
+
+}
+
+.wrap_content>h2{
+    text-align: center;
+}
+
+.wrap_content>.wrap_pages{
+    width: 85%;
+    margin: auto;
+    background: white;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+    /*-ms-flex-pack: distribute;*/
+    justify-content: space-around;
+}
+
+.wrap_content>.wrap_pages>.block_nth{
+    max-width: 29%;
+    width: 200px;
+    height: 130px;
+    background: #d4ecff;
+    padding: 10px;
+    margin: 17px;
+    border-radius: 5px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.wrap_content>.wrap_pages>.block_nth>a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    color: black;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s
+
+}
+.wrap_content>.wrap_pages>.block_nth>a>div>img{
+    height: 75px;
+
+}
+
+.wrap_content>.wrap_pages>.block_nth>a>div{
+    padding: 1px;
+}
+
+.wrap_content>.wrap_pages>.block_nth>a>div>span{
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+.wrap_content>.wrap_pages>.block_nth>a:hover{
+    background: white;
+    -webkit-box-shadow: 0 0 10px #636b6f;
+    box-shadow: 0 0 10px #636b6f;
+}
+

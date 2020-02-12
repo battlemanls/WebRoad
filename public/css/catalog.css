@@ -1,0 +1,191 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.block_nth{
+    background: #e5e6eb;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 7px black;
+    box-shadow: 0 0 7px black;
+}
+
+
+
+@media(max-width: 1000px) {
+    .wrap_content{
+        padding: 3px;
+        background:#d5d7d9 ;
+    }
+
+
+    .block_nth{
+        margin-bottom: 30px;
+    }
+
+    .block_nth>div{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+
+    .block_nth{
+        font-size: 1.2rem;
+    }
+
+    .block_nth>div:first-child{
+    }
+
+    .block_nth>div:first-child>div:first-child{
+        width: 100%;
+        text-align: center;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+
+    .block_nth>div:first-child>div:last-child>div:nth-child(3){
+        text-align: center;
+    }
+
+
+}
+
+@media(min-width: 1000px) {
+    .block_nth{
+        margin:20px auto;
+        width: 70%;
+    }
+
+    .block_nth>div{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+
+    .block_nth>div:first-child{
+        max-height: 350px;
+
+    }
+
+    .block_nth>div:first-child>div:first-child{
+        width: 40%;
+    }
+
+
+    .block_nth>div:first-child>div:last-child>div:nth-child(3){
+        text-align: left;
+    }
+
+
+}
+
+
+
+
+
+.block_nth>div:first-child{
+    margin-bottom: 10px;
+}
+
+.block_nth>div:first-child>div:first-child{
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom:3px;
+    text-align: center;
+}
+
+
+.block_nth>div>div>img{
+    background: no-repeat;
+    max-width: 95%;
+    border: 3px solid white;
+    border-radius: 5px;
+    max-height: 250px;
+    -webkit-box-shadow: 0 0 5px black;
+    box-shadow: 0 0 5px black;
+    margin: auto;
+}
+
+.block_nth>div:first-child>div:last-child{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.block_nth>div:first-child>div:last-child>div:first-child{
+    text-align: center;
+    max-height: 300px;
+    overflow: hidden;
+    font-size: 1.5rem;
+    border-bottom: 5px dashed black;
+    padding: 5px;
+    background: #ccced0;
+    border-radius: 3px;
+}
+
+.block_nth>div:first-child>div:last-child>div:nth-child(2){
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.block_nth>div:first-child>div:last-child>div:nth-child(3){
+    margin: 10px;
+    /*text-align: center;*/
+    line-height: 1.5em;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: 200px;
+
+    /* Для поддержки не-вебкит-браузеров, высота одной строки*/
+    line-height: 20px;
+    max-height: 140px;
+
+
+
+
+
+
+}
+
+.block_nth>div:last-child{
+    height: 30px;
+}
+
+.block_nth>div:last-child>a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.block_nth>div:last-child>a>button{
+    width: 100%;
+    max-width: 300px;
+}
+
+.pagination {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}

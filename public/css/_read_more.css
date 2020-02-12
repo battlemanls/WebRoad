@@ -1,0 +1,88 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+.wrap_more_block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wrap_articles_nth{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: black;
+
+}
+
+.wrap_articles_nth>a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrap_articles_nth>a:hover{
+    background: #f6f6f6;
+    border-radius: 5px;
+
+}
+
+
+.articles_nth{
+    width: 210px;
+    height: 220px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.view_date{
+    font-size: 0.8rem;
+    text-align: center;
+
+    padding: 2px;
+
+    overflow: hidden;
+}
+
+.img_news{
+    text-align: center;
+}
+
+
+.img_news img{
+    max-height: 140px;
+    max-width: 100%;
+
+    border-radius: 5px;
+    border: 3px solid white;
+    -webkit-box-shadow: black 0 0 5px;
+    box-shadow: black 0 0 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.title{
+}
+
+.title>span{
+    font-weight: 600;
+    text-align: center;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+    /* Для поддержки не-вебкит-браузеров, высота одной строки*/
+    line-height: 20px;
+    max-height: 60px;
+
+
+
+}
