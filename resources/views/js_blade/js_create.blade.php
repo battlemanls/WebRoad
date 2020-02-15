@@ -13,7 +13,7 @@
                 renameFile: function (file) {
                     return file.name
                 },
-                acceptedFiles: ".doc, .docx, .txt, .pdf, .rar, .zip",
+                acceptedFiles: ".doc, .docx, .txt, .pdf, .rar, .zip, .xlsx, .xlsm .xls",
                 addRemoveLinks: true,
                 parallelUploads: 1,
                 timeout: 200000,

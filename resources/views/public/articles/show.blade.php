@@ -128,6 +128,9 @@
                     _toggleCaption: false,
                     _showTooltip: false,
                     _showCaption: false,
+
+                  
+
                     _locale: {
                         show_captions: 'Інформація',
                         hide_captions: 'Скрити',

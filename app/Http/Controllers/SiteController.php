@@ -192,7 +192,7 @@ class SiteController extends Controller
             }
 
     //Dialnist
-        public function vokonani_zahodi(){
+        public function vikonani_zahodi(){
                 try {
                     $page = App\WebPages::find(15);
                     $articles_more = App\Articles::where('status', '=', true)
@@ -210,7 +210,7 @@ class SiteController extends Controller
                 }
         }
 
-        public function dorozni_roboti(){
+      /*  public function dorozni_roboti(){
                 try {
                     $articles_more = App\Articles::where('status', '=', true)
                         ->where(function ($q) {
@@ -226,9 +226,9 @@ class SiteController extends Controller
                 catch (\Exception $e){
                     return back();
                 }
-        }
+        }*/
 
-        public function likvidacia_amkovosti(){
+    /*    public function likvidacia_amkovosti(){
                 try {
                     $articles_more = App\Articles::where('status', '=', true)
                         ->where(function ($q) {
@@ -244,9 +244,9 @@ class SiteController extends Controller
                 catch (\Exception $e){
                     return back();
                 }
-        }
+        }*/
 
-        public function plan_robit(){
+        public function zaplanovani_roboti(){
                 try {
                     $page = App\WebPages::find(18);
                     $articles_more = App\Articles::where('status', '=', true)

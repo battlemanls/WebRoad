@@ -175,7 +175,7 @@
             </div>
 
             <div>
-                <label>Файли: (.doc, .docx, .txt, .pdf, .rar, .zip)</label>
+                <label>Файли: (.doc, .docx, .txt, .pdf, .rar, .zip, .xlsx, .xlsm .xls)</label>
                 <div style="display: none" class="alert-danger"></div>
                 <form class="dropzone" id="dropzone"
                       enctype="multipart/form-data"

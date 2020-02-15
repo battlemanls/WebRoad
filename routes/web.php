@@ -96,10 +96,11 @@ Route::get('/search',['uses' => 'IndexController@search'])->name("site.search");
 
 
     //Dialnist
-    Route::get('/dialnist/remont_dorig/vokonani_zahodi', 'SiteController@vokonani_zahodi')->name("site.vokonani_zahodi");
-    Route::get('/dialnist/remont_dorig/dorozni_roboti', 'SiteController@dorozni_roboti')->name("site.dorozni_roboti");
+    Route::get('/dialnist/remont_dorig/vikonani_zahodi', 'SiteController@vikonani_zahodi')->name("site.vikonani_zahodi");
+ /*   Route::get('/dialnist/remont_dorig/dorozni_roboti', 'SiteController@dorozni_roboti')->name("site.dorozni_roboti");
     Route::get('/dialnist/remont_dorig/likvidacia_amkovosti', 'SiteController@likvidacia_amkovosti')->name("site.likvidacia_amkovosti");
-    Route::get('/dialnist/remont_dorig/plan_robit', 'SiteController@plan_robit')->name("site.plan_robit");
+   */
+    Route::get('/dialnist/remont_dorig/zaplanovani_roboti', 'SiteController@zaplanovani_roboti')->name("site.zaplanovani_roboti");
     Route::get('/dialnist/sfera', 'SiteController@sfera')->name("site.sfera");
     Route::get('/dialnist/finansovo-economichna_dialnist', 'SiteController@finansovo_economichna_dialnist')->name("site.finansovo_economichna_dialnist");
     Route::get('/dialnist/derzavni_zakupivli', 'SiteController@derzavni_zakupivli')->name("site.derzavni_zakupivli");

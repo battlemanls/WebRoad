@@ -282,15 +282,18 @@ var doc    = window.document,
             if ( doc.exitFullscreen ) {
                 doc.exitFullscreen();
             }
+
+            else if ( doc.webkitCancelFullScreen ) {
+                doc.webkitCancelFullScreen();
+            }
+
             else if ( doc.msExitFullscreen ) {
                 doc.msExitFullscreen();
             }
             else if ( doc.mozCancelFullScreen ) {
                 doc.mozCancelFullScreen();
             }
-            else if ( doc.webkitCancelFullScreen ) {
-                doc.webkitCancelFullScreen();
-            }
+
         },
 
         instance: null,
@@ -1688,6 +1691,7 @@ Galleria = function() {
         enter: function( callback ) {
 
             fullscreen.beforeEnter(function() {
+
 
                 callback = fullscreen.parseCallback( callback, true );
 
